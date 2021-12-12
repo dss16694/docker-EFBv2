@@ -7,6 +7,7 @@ RUN apk add --update --no-cache ca-certificates
 
 RUN set -ex \
         && apk add --no-cache --virtual .run-deps \
+                py3-pip \
                 ffmpeg \
                 libmagic \
                 libwebp \
