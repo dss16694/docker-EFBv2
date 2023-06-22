@@ -9,4 +9,4 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/v3.14/main" > /etc/apk/repositori
 	&& pip3 install efb-wechat-slave-itchat-uos \
 	&& pip3 install lottie cairosvg
 	
-CMD ["ehforwarderbot"]
+CMD ["tail", "-f", "/dev/null"]
